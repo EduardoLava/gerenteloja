@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1030604772006",
+    "firebase_url": "https://lojaflutter-a1489.firebaseio.com",
+    "project_id": "lojaflutter-a1489",
+    "storage_bucket": "lojaflutter-a1489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030604772006:android:5e7b2af3f8f1b9f6a7da67",
+        "android_client_info": {
+          "package_name": "lava.com.br.gerenteloja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030604772006-nv6uhbr31accs9dh46gk9p9dn210uuo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUm_AfmtEgoUMGoPKTIda2YHbr4UzhD5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030604772006-nv6uhbr31accs9dh46gk9p9dn210uuo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030604772006:android:16872f40db06a2bd",
+        "android_client_info": {
+          "package_name": "lava.com.br.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030604772006-nv6uhbr31accs9dh46gk9p9dn210uuo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUm_AfmtEgoUMGoPKTIda2YHbr4UzhD5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030604772006-nv6uhbr31accs9dh46gk9p9dn210uuo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

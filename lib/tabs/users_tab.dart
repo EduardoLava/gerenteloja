@@ -23,6 +23,7 @@ class UsersTab extends StatelessWidget {
               icon: Icon(Icons.search, color: Colors.white),
               border: InputBorder.none
             ),
+            onChanged: _userBloc.onChangedSearch,
           ),
         ),
         Expanded(

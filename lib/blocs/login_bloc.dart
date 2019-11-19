@@ -7,7 +7,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:gerenteloja/validators/login_validators.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
 enum LoginState {IDLE, LOADING, SUCCESS, FAIL}
 

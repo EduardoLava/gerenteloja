@@ -73,6 +73,30 @@ class UserBloc extends BlocBase {
         });
   }
 
+  void onChangedSearch(String search){
+
+    if(search.trim().isEmpty){
+      _usersController.add(_users.values.toList());
+      return;
+
+    }
+
+    _usersController.add(_filter(search.trim()));
+  }
+
+  List<Map<String, dynamic>> _filter(String search){
+    List<Map<String,dynamic>> filteredUsers = List.from(_users.values.toList());
+    filteredUsers.retainWhere((user){// mantem quando retornar true
+      return user["name"].toString().toUpperCase().contains(search.toUpperCase());
+    });
+
+    return filteredUsers;
+  }
+
+  Map<String, dynamic> getUser(String uid){
+    return _users[uid];
+  }
+
   @override
   void dispose() {
     _usersController.close();

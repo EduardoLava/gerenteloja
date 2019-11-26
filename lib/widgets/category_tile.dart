@@ -52,7 +52,7 @@ class CategoryTile extends StatelessWidget {
                     title: Text("Adicionar"),
                     onTap: (){
                       Navigator.of(context).push(MaterialPageRoute(builder: (context) => ProductScreen(
-
+                        categoryId: category.documentID,
                       )));
                     },
                   )),

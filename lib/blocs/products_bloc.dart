@@ -56,6 +56,10 @@ class ProductsBloc extends BlocBase {
     unsavedData["images"] = images;
   }
 
+  void saveSizes(List sizes){
+    unsavedData["sizes"] = sizes;
+  }
+
   Future<bool> saveProduct() async {
     _loadingController.add(true);
 
@@ -85,7 +89,7 @@ class ProductsBloc extends BlocBase {
   Future _uploadImages(String productId) async {
 
     for(int i=0; i < unsavedData["images"].length; i++){
-      if(unsavedData["images"] is String){// se for string ja esta no firebase
+      if(unsavedData["images"][i] is String){// se for string ja esta no firebase
         continue;
       }
 
